@@ -5,23 +5,30 @@
 <body>
   <style>
   body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI, Tahoma, Geneva, Verdana, sans-serif";
   }
 
   .style {
-    display: grid;
-    grid-template-columns: 80% 20%;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-
+      display: flex;
+      align-items: center;
+      margin-bottom: 40px;
+      justify-content: center;
+      text-align: center;
+      gap: 100px;
+    }
+  .flyer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 50px;
+    }
   .text {
     width: 100%;
   }
 
   .image {
     width: 100%;
-    text-align: center;
+    align-items: center;
   }
 
   img {
@@ -32,6 +39,7 @@
             display: flex;
             gap: 10px;
             margin-top: 20px;
+            justify-content: center;
       }
   nav a {
             text-decoration: none;
@@ -48,7 +56,13 @@
 
 </style>
   <nav>
-    <a href="index.html" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 24px;"> Home Page</a>
+      <a href="index.html" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 24px;">Home Page</a>
+    <a href="About.html" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 24px;"> About Us</a>  
+    <a href="eboard.html" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 24px;"> Meet the Eboard</a>
+    <a href="Spring2026.html" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 24px;"> Spring 2026 Events</a>
+    <a href="Conferences.html" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 24px;"> Conferences</a>  
+    <a href="Resources.html" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 24px;"> Resources</a>      
+    <a href="Gallery.html" style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 24px;"> Gallery</a>      
   </nav>
 
   <body style="background-color: lightblue;">
@@ -61,236 +75,206 @@
     
   <!--  September 2025-->
   <h2> 
-    <p style="font-size: 30px;">
+    <p style= "text-align: center; font-size: 40px;">
       <u> September 2025</u>
     </p></h2>
   <div class="style">
-    <div class="text" style="font-size: 30px;" ><strong>Events</strong></div>
-    <div class="image" style="font-size: 30px;"><strong>Flyers</strong></div>
-  </div>
-
-   <div class="style">
-    <div class="text" style="font-size: 25px;"> 
+    <div class = "flyer">
+      <div class="image">
+        <img src="IEEE_IntroMeeting.png" width="300" height="400">
+      </div>
+      <div class="text" style="font-size: 25px;"> 
         <!--  Information About Event -->
           9/8/25: Introduction and Interest Meeting <br>
           Location: Pierce 120 <br>
-          Time: 9:15 PM - 10:30 PM <br>
+          Time: 9:15 PM - 10:30 PM
       </div>
-      <div class = "image">
-          <img src="IEEE_IntroMeeting.png" width="300" height="400">
-          <br>
-        </div>
-    </div>
+      </div>
 
-   <div class="style">
+   <div class="flyer">
+    <div class = "image">
+      <img src="IEEE_IntrotoLinux.png" width="300" height="400">
+      </div>
     <div class="text" style="font-size: 25px;"> 
     9/15/25: Introduction to Linux / Raspberry Pi Workshop <br>
     Location: Pierce 120 <br>
     Time: 9:15 PM - 10:30 PM 
       </div>
-      <div class = "image">
-        <img src="IEEE_IntrotoLinux.png" width="300" height="400">
-        <br>
       </div>
-    </div>
-
+      </div>
+    <br>
+    
     <div class="style">
-    <div class="text" style="font-size: 25px;"> 
+      <div class="flyer">
+        <div class = "image">
+          <img src="ProfessionalDevelopmentPanel.png" width="300" height="400">
+          </div>
+      <div class="text" style="font-size: 25px;"> 
     9/22/25: IEEE E-Board Professional Panel <br>
     Location: Pierce 120 <br>
     Time: 9:15 PM - 10:30 PM <br>
-    FOOD WILL BE PROVIDED! <br>
-    </div>
-    <div class = "image">
-    <img src="ProfessionalDevelopmentPanel.png" width="300" height="400">
-    <br>
     </div>
     </div>
 
-    <div class="style">
+    <div class="flyer">
+          <div class = "image">
+            <img src="RoboticDroneWorkshopWeek1.png"  width="300" height="400">
+    </div>
     <div class="text" style="font-size: 25px;"> 
     9/29/25: Robot Drone Workshop Week 1 <br>
     Location: Pierce 120 <br>
     Time: 9:15 PM - 10:30 PM 
     </div>
-    <div class = "image">
-    <img src="RoboticDroneWorkshopWeek1.png"  width="300" height="400">
+    </div>
+    </div>
+    
     <br>
-    </div>
-    </div>
 
     <!--  Information About Event -->
-    <h2> <p style="font-size: 30px;">
+    <h2> <p style="font-size: 40px; text-align: center;">
       <u>October 2025</u>
     </p> </h2>
-    <div class="style">
-      <div class="text" style="font-size: 30px;"><strong>Events</strong></div>
-      <div class="image" style="font-size: 30px;"><strong>Flyers</strong></div>
-    </div>
     <!--  Information About Event -->
     <div class="style">
+      <div class = "flyer">
+          <div class = "image">
+            <img src="SWE_Internship_Panel.jpg"  width="300" height="400">
+      </div>
     <div class="text" style="font-size: 25px;">
     10/1/25: IEEE X Society of Women Engineers Collaboration Internship Panel <br>
     Location: UCC Gallery <br>
     Time: 9:15 PM - 10:30 PM 
     </div>
-    <div class = "image">
-    <img src="SWE_Internship_Panel.jpg"  width="300" height="400">
-     <br>
-    </div>
     </div>
 
-    <br>
-    <div class="style">
+    <div class="flyer">
+      <div class = "image">
+        <img src="RoboticDroneWorkshopWeek2.png"  width="300" height="400">
+        </div>
     <div class="text" style="font-size: 25px;">
     10/6/25: Robot Drone Workshop Week 2 <br>
     Location: Pierce 120 <br>
     Time: 9:15 PM - 10:30 PM 
-    <br>
-    </div>
-    <div class = "image">
-    <img src="RoboticDroneWorkshopWeek2.png"  width="300" height="400">
-    <br>
     </div>
     </div>
-  </br>
+    </div>
 
-    <div class="style">
+    <div class ="style">
+    <div class="flyer">
+        <div class = "image">
+          <img src="AP-S Flier Updated Final (2).png"  width="300" height="400">
+          </div>
     <div class="text" style="font-size: 25px;">
     10/6/25: IEEE AP-S Stevens Institute of Technology Chapter Inauguration <br>
     Location: Burchard 111 <br>
     Time: 9:00 AM - 3:30 PM 
-    <br>
-    </div>
-    <div class = "image">
-    <img src="AP-S Flier Updated Final (2).png"  width="300" height="400">
-    <br>
     </div>
     </div>
-  </br>
-    <div class="style">
-    <div class="text" style="font-size: 25px;">
+        <div class="flyer">
+          <div class = image>
+            <img src="IEEE_MatlabWorkshop.png"  width="300" height="400">    
+          </div>
+          <div class="text" style="font-size: 25px;">
     10/20/25: INCOSE x IEEE MATLAB Collaboration <br>
     Location: Pierce 120 <br>
     Time: 9:15 PM - 10:30 PM 
-    FOOD WILL BE PROVIDED <br>
-    <br>
-    </div>
-    <div class = "image">
-    <img src="IEEE_MatlabWorkshop.png"  width="300" height="400">
-    <br> 
     </div>
     </div>
 
-
-    <br>
-    <div class="style">
+    <div class="flyer">
+          <div class = image>
+              <img src="HalloweenIEEE.png"  width="300" height="400">
+              </div>
     <div class="text" style="font-size: 25px;">
-    10/20/25: HallowIEEEn <br>
+    10/27/25: HallowIEEEn <br>
     Location: Pierce 120 <br>
     Time: 9:15 PM - 10:30 PM <br>
-    FOOD AND CANDY WILL BE PROVIDED! <br>
     </div>
-    <div class = "image">
-    <img src="HalloweenIEEE.png"  width="300" height="400">
-    <br> 
     </div>
     </div>
 
     <br>
-  <!--  November 2025-->
-  <h2> <p style="font-size: 30px;">
+    <!--  November 2025-->
+  <h2> <p style="font-size: 40px; text-align: center;">
       <u> November 2025 </u>
     </p> </h2>
+
     <div class="style">
-      <div class="text" style="font-size: 30px;"><strong>Events</strong></div>
-      <div class="image" style="font-size: 30px;"><strong>Flyers</strong></div>
-    </div>
-    <div class="style">
+        <div class="flyer">
+          <div class = image>
+              <img src="MicrocontrollerWorkshopWeek1.png"  width="300" height="400">
+          </div>
     <div class="text" style="font-size: 25px;">
     11/3/25: Microcontroller Workshop Week 1 <br>
     Location: Library B12 <br>
     Time: 9:15 PM - 10:30 PM <br>
-    <br>
-    </div>
-    <div class = "image">
-    <img src="MicrocontrollerWorkshopWeek1.png"  width="300" height="400">
-    <br>
     </div>
     </div>
 
-    <br>
-    <div class="style">
+    <div class="flyer">
+        <div class = "image">
+          <img src="MicrocontrollerWorkshopWeek2.png" width="300" height="400">
+          </div>
     <div class="text" style="font-size: 25px;">
     11/10/25: Microcontroller Workshop Week 2 <br>
     Location: Library B12 <br>
     Time: 9:15 PM - 10:30 PM <br>
     </div>
-    <div class = "image">
-    <img src="MicrocontrollerWorkshopWeek2.png" 10:30  width="300" height="400">
-    <br>
     </div>
+    
+    <div class="flyer">
+        <div class = "image">
+          <img src="SolderingWeek1.png" width="300" height="400">
     </div>
-
-    <br>
-    <div class="style">
     <div class="text" style="font-size: 25px;">
     11/17/25: Soldering Workshop Week 1 <br>
     Location: Pierce 120 <br>
     Time: 9:15 PM - 10:30  PM 
     <br>
     </div>
-    <div class = "image">
-    <img src="SolderingWeek1.png" 10:30  width="300" height="400">
     </div>
     </div>
 
-    <br>
     
     <div class="style">
+        <div class="flyer">
+          <div class = image>
+              <img src="AIWorkshop.png" width="300" height="400">    
+            </div>
     <div class="text" style="font-size: 25px;">
     11/19/25: AI Workshop IEEE Young Professionals Collab with Stevens Women in Computer Science <br>
     Location: Bissinger 4th Floor <br>
     Time: 6 PM - 8 PM 
-    <br>
-    </div>
-    <div class = "image">
-    <img src="AIWorkshop.png" 10:30  width="300" height="400">
-    <br>
     </div>
     </div>
 
-    <br>
-    <div class="style">
+    <div class="flyer">
+      <div class = "image">
+
+        <img src="SolderingWeek2.png" width="300" height="400">
+        </div>
     <div class="text" style="font-size: 25px;">
     11/24/25: Soldering Workshop Week 2 <br>
     Location: Pierce 120 <br> 
     Time: 9:15 PM - 10:30  PM
     </div>
-    <div class = "image">
-    <img src="SolderingWeek2.png" 10:30  width="300" height="400">
-    <br>
-     </div>
     </div>
-
+  </div>
+  <br>
     <!--  December 2025-->
-    <h2> <p style="font-size: 30px;">
+    <h2> <p style="font-size: 40px; text-align: center;">
     <u> December 2025 </u>
     </p> </h2>
     <div class="style">
-      <div class="text" style="font-size: 30px;"><strong>Events</strong></div>
-      <div class="image" style="font-size: 30px;"><strong>Flyers</strong></div>
+      <div class = "flyer">
+        <div class = "image">
+          <img src="Bowling.png" width="300" height="400">
     </div>
-    <div class="style">
-    <div class="text" style="font-size: 25px;">
+        <div class="text" style="font-size: 25px;">
     12/1/25: Bowling <br>
     Location: Bowling Alley (Basement of Howe) <br>
     Time: 9:15 PM - 10:30  PM <br>
-    FOOD WILL BE PROVIDED! <br>
     <br>
-    </div>
-    <div class = "image">
-    <img src="Bowling.png" 10:30  width="300" height="400">
     </div>
     </div>
 </body>
